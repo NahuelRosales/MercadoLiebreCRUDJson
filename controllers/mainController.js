@@ -1,6 +1,9 @@
 const controller = {
     index: (req, res) => {
-        res.send("/");
+        res.render("home");
+    },
+    about: (req, res) => {
+        res.render("about")
     }
 }
 
